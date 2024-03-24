@@ -5,7 +5,7 @@ var list = []
 var stepNo = 1
 
 function addCard(c) {
-//    c = new CardObject("Gitle", "Type", "text", undefined);
+//    c = new CardObject("Title", "Type", "text", undefined);
     list.push(c);
     updateCards(list);
     window.scrollTo(0,document.body.scrollHeight);
